@@ -5,7 +5,7 @@ import Section2 from './Components/Section2'
 import Section3 from './Components/Section3' 
 import Parcours from './Components/Parcours'
 import Footer from './Components/Footer'
-
+import Contact from './Components/Contact'
 export default function App() {
   return (
     <>
@@ -14,6 +14,7 @@ export default function App() {
     <Section2/>
     <Parcours/>
     <Section3/>
+     <Contact/>
     <Footer/>
     </>
   )

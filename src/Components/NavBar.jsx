@@ -24,7 +24,7 @@ export default function NavBar() {
           duration={500}
           offset={-70}
           activeClass='active text-blue-400'
-          className=" text-xl relative cursor-pointer hover:text-blue-900 transition-colors 
+          className=" text-xl relative  hover:text-blue-900 transition-colors 
                      after:content-[''] after:absolute after:-bottom-1 after:left-0 
                      after:w-0 after:h-[2px] after:bg-blue-400 hover:after:w-full after:transition-all cursor-pointer"
         >

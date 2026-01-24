@@ -1,14 +1,15 @@
 import { Link } from "react-scroll";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
-  const links = [
-    { name: "Accueil", link: "home" },
-    { name: "À propos", link: "about" },
-    { name: "Compétences", link: "skills" },
-    { name: "Projets", link: "projects" },
-    { name: "Contact", link: "contact" },
-  ];
+ const links = [
+        { name: "Acceuil", link: "home" },
+        { name: "A propos", link: "about" },
+        { name: "Experience", link: "experience" },
+                { name: "Formation", link: "formation" },
+        { name: "Compétences", link: "skills" },
+        { name: "Contact", link: "contact" },
+    ];
 
   return (
     <footer className="relative bg-gradient-to-r from-blue-950 via-blue-900 to-indigo-900 text-gray-300">
@@ -23,7 +24,7 @@ const Footer = () => {
               alt="Logo personnel"
               className="w-32 mb-4"
             />
-            <p className="text-lg text-gray-400 max-w-xl leading-relaxed ">
+            <p className="text-lg text-gray-400 max-w-xl leading-relaxed">
               Développeur Full Stack passionné 🚀  
               Création d’applications modernes, performantes et scalables.
             </p>
@@ -48,33 +49,23 @@ const Footer = () => {
           </nav>
 
           <div className="flex justify-center md:justify-end gap-4">
-            {[
-              {
-                icon: <FaLinkedinIn />,
-                label: "LinkedIn",
-                url: "https://linkedin.com",
-              },
-
-            ].map((item, index) => (
-              <a
-                key={index}
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={item.label}
-                className="
-                  w-20 h-10 rounded-full
-                  bg-white/10 backdrop-blur
-                  flex items-center justify-center
-                  text-lg
-                  hover:bg-blue-500 hover:text-white
-                  hover:scale-110
-                  transition-all duration-300
-                "
-              >
-                {item.icon}
-              </a>
-            ))}
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="
+                w-20 h-10 rounded-full
+                bg-white/10 backdrop-blur
+                flex items-center justify-center
+                text-lg
+                hover:bg-blue-500 hover:text-white
+                hover:scale-110
+                transition-all duration-300
+              "
+            >
+              <FaLinkedinIn />
+            </a>
           </div>
         </div>
 
