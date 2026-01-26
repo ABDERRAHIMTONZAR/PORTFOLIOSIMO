@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBriefcase, FaUniversity, FaGraduationCap } from "react-icons/fa";
+import { FaUniversity, FaGraduationCap } from "react-icons/fa";
 
 export default function Parcours() {
   
