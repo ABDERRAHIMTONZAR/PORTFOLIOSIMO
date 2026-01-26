@@ -2,14 +2,14 @@ import { Link } from "react-scroll";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
- const links = [
-        { name: "Acceuil", link: "home" },
-        { name: "A propos", link: "about" },
-        { name: "Experience", link: "experience" },
-                { name: "Formation", link: "formation" },
-        { name: "Compétences", link: "skills" },
-        { name: "Contact", link: "contact" },
-    ];
+  const links = [
+    { name: "Acceuil", link: "home" },
+    { name: "A propos", link: "about" },
+    { name: "Experience", link: "experience" },
+    { name: "Formation", link: "formation" },
+    { name: "Compétences", link: "skills" },
+    { name: "Contact", link: "contact" },
+  ];
 
   return (
     <footer className="relative bg-gradient-to-r from-blue-950 via-blue-900 to-indigo-900 text-gray-300">
@@ -25,7 +25,7 @@ const Footer = () => {
               className="w-32 mb-4"
             />
             <p className="text-lg text-gray-400 max-w-xl leading-relaxed">
-              Développeur Full Stack passionné 🚀  
+              Développeur Full Stack passionné 🚀
               Création d’applications modernes, performantes et scalables.
             </p>
           </div>

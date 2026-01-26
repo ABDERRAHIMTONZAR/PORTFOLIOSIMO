@@ -5,7 +5,6 @@ export default function Parcours() {
   
 const experience = [
   {
-    icon: <FaBriefcase className="text-indigo-500 w-10 h-10" />,
     title: "Responsable informatique – Développeur Full Stack",
     subtitle: "Saphir Innovation",
     date: "2024 – En cours",
@@ -32,7 +31,6 @@ const experience = [
   },
 
   {
-    icon: <FaBriefcase className="text-blue-500 w-10 h-10" />,
     title: "Développeur Full Stack",
     subtitle: "CGI",
     date: "2022 – 2024",
@@ -56,7 +54,6 @@ const experience = [
   },
 
   {
-    icon: <FaBriefcase className="text-teal-500 w-10 h-10" />,
     title: "Ingénieur Développeur Full Stack",
     subtitle: "ALTEN",
     date: "2021 – 2022",
@@ -79,7 +76,6 @@ const experience = [
   },
 
   {
-    icon: <FaBriefcase className="text-blue-400 w-10 h-10" />,
     title: "Développeur Web",
     subtitle: "Virbac",
     date: "2019 – 2021",

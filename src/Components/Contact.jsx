@@ -26,7 +26,6 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-12 bg-white p-10 rounded-2xl shadow-xl">
           
-          {/* Infos */}
           <div className="space-y-6">
             <p className="text-lg text-gray-600">
               Une question, un projet ou une opportunité ?  
@@ -40,16 +39,15 @@ export default function Contact() {
 
             <div className="flex items-center gap-4 text-gray-700">
               <FaPhoneAlt className="text-blue-600" />
-              <span>+33 6 00 00 00 00</span>
+              <span>+33754044537 /  0690917648</span>
             </div>
 
             <div className="flex items-center gap-4 text-gray-700">
               <FaMapMarkerAlt className="text-blue-600" />
-              <span>Nice, France</span>
+              <span>France</span>
             </div>
           </div>
 
-          {/* Formulaire */}
           <form className="space-y-6" onSubmit={handleSubmit}>
             <input
               type="text"

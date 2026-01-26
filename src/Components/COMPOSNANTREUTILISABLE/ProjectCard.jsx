@@ -1,4 +1,3 @@
-import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function ProjectCard({ image, title, author, company, tech, detailsLink, demoLink, completed, description,liveDemo }) {
