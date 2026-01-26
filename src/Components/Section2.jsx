@@ -10,7 +10,7 @@ export default function Section2() {
         <img
           src="/image.png"
           alt="Portrait professionnel"
-          className="w-[300px] md:w-[300px] h-[300px] md:h-[400px] object-cover rounded-full shadow-xl border-4 border-blue-500 hover:scale-105 transition-transform duration-300"
+          className="w-[300px] md:w-[300px] h-[300px] md:h-[400px] object-cover rounded-full shadow-xl border-4  hover:scale-105 transition-transform duration-300"
         />
       </div>
 
@@ -21,8 +21,8 @@ export default function Section2() {
 
         <p className="text-lg text-gray-600 text-justify">
           Diplômé d’un <strong>Master MIAGE</strong>, je suis
-          <span className="text-blue-600 font-semibold"> Responsable Informatique & Développeur Full Stack</span>
-          chez <strong>Saphir Innovation</strong>, en charge du développement,
+          <span className="text-blue-600 font-semibold"> Responsable Informatique & Développeur Full Stack </span>
+           chez <strong>Saphir Innovation</strong>, en charge du développement,
           de l’architecture et du déploiement des solutions web du projet
           <strong> Menus Services</strong>.
         </p>
