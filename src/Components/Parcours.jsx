@@ -145,7 +145,7 @@ const formation = [
   },
 
   {
-    icon: <FaUniversity className="text-blue-500 w-10 h-10" />,
+    icon: <FaUniversity className="text-indigo-500 w-10 h-10" />,
     title: "Institut Supérieur de Technologie Appliquée",
     subtitle: "Développeur Informatique",
     date: "2015 – 2017",
