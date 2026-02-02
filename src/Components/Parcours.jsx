@@ -132,7 +132,7 @@ const formation = [
   },
 
   {
-    icon: <FaUniversity className="text-green-500 w-10 h-10" />,
+    icon: <FaUniversity className="text-indigo-500 w-10 h-10" />,
     title: "Faculté des sciences",
     subtitle: "Licence MIAGE",
     date: "2017 – 2018",
